@@ -8,5 +8,5 @@ from core import views
 
 urlpatterns = [
    path('api/user', views.Login.as_view()),
-   path('password_change/', PasswordChangeView.as_view(), name='password_change')
+   path('api/auto', views.AutoView.as_view()),
 ]
