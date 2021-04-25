@@ -28,6 +28,7 @@ class Qodex_users(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Qodex_users'
+        verbose_name = verbose_name_plural = 'Qodex users'
 
 class Auto(models.Model):
     """ Auto - model of auto databases """
@@ -51,6 +52,7 @@ class Auto(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Auto'
+        verbose_name = verbose_name_plural = 'Auto'
 
 class Auto_model(models.Model):
     """ Auto_model - model of auto_model databases """
@@ -66,6 +68,7 @@ class Auto_model(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Auto_model'
+        verbose_name = verbose_name_plural = 'Auto models'
 
 class Auto_brands(models.Model):
     """ Auto_brands - model of auto_brands databases """
@@ -77,7 +80,8 @@ class Auto_brands(models.Model):
     class Meta:
         """ Model configurations """
         managed = True
-        db_table = 'Auto_brands'    
+        db_table = 'Auto_brands'
+        verbose_name = verbose_name_plural = 'Auto brands'    
     
 class RFID_ID(models.Model):
     """ RFID_ID - model of RFID_ID databases """
@@ -93,6 +97,7 @@ class RFID_ID(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'RFID_ID'
+        verbose_name = verbose_name_plural = 'RFID'
 
 class RFID_types(models.Model):
     """ RFID_types - model of RFID_types """
@@ -106,6 +111,7 @@ class RFID_types(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'RFID_types'
+        verbose_name = verbose_name_plural = 'RFID types'
 
 class Weight_types(models.Model):
     """ Weight_types - model of weight_types databases """
@@ -118,6 +124,7 @@ class Weight_types(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Weight_types'
+        verbose_name = verbose_name_plural = 'Weight types'
 
 class Trash_types(models.Model):
     """ Trash_types - model of trash_types databases """
@@ -136,6 +143,7 @@ class Trash_types(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Trash_types'
+        verbose_name = verbose_name_plural = 'Trash types'
         
 class Trash_cats(models.Model):
     """ Trash_cats - model of Trash_cats databases """
@@ -153,6 +161,7 @@ class Trash_cats(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Trash_cats'
+        verbose_name = verbose_name_plural = 'Trash cats'
         
 class User_roles(models.Model):
     """ User_roles - model of User_roles databases """
@@ -166,6 +175,7 @@ class User_roles(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'User_roles'
+        verbose_name = verbose_name_plural = 'User roles'
 
 class Qodex_org(models.Model):
     """ Qodex_org - model of Qodex_org databases """
@@ -190,6 +200,7 @@ class Qodex_org(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Qodex_org'
+        verbose_name = verbose_name_plural = 'Qodex organization'
 
 class Operators(models.Model):
     """ Operators - model of operators databases """
@@ -211,6 +222,7 @@ class Operators(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Operators'
+        verbose_name = verbose_name_plural = 'Operators'
 
 class Qodex_achive(models.Model):
     """ Qodex_achive - model of qodex_achive databases """
@@ -231,6 +243,7 @@ class Qodex_achive(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Qodex_achive'
+        verbose_name = verbose_name_plural = 'Qodex achive'
 
 class Cm_events_log(models.Model):
     """ Cm_events_log - model of m_events_log databases """
@@ -249,6 +262,7 @@ class Cm_events_log(models.Model):
         """ Model configurations """
         managed = True
         db_table = 'Cm_events_log'
+        verbose_name = verbose_name_plural = 'Events log'
 
 class Regions(models.Model):
     """ Regions - model of regions databases """
@@ -262,6 +276,7 @@ class Regions(models.Model):
         """ Model configuration """
         managed = True
         db_table = 'Regions'
+        verbose_name = verbose_name_plural = 'Regions'
 
 class Oro_info(models.Model):
     """ Oro_info - model of oro_info databases """
@@ -276,3 +291,4 @@ class Oro_info(models.Model):
         """ Model congigurations """
         managed = True
         db_table = 'Oro_info'
+        verbose_name = verbose_name_plural = 'Oro info'

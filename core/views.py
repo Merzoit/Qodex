@@ -62,7 +62,12 @@ class Qodex_achiveViews(generics.ListCreateAPIView):
 class Cm_events_logViews(generics.ListCreateAPIView):
     """ API for Cm_events_log """
     queryset = models.Cm_events_log.objects.all()
-    serializer_class = serializers.Cm_events_logSerializer  
+    serializer_class = serializers.Cm_events_logSerializer 
+
+class RFID_IDViews(generics.ListCreateAPIView):
+    """ API for RFID_types """
+    queryset = models.RFID_ID.objects.all()
+    serializer_class = serializers.RFID_IDSerializer 
 
 class RFID_typesViews(generics.ListCreateAPIView):
     """ API for RFID_types """
@@ -79,9 +84,9 @@ class RegionsViews(generics.ListCreateAPIView):
     queryset = models.Regions.objects.all()
     serializer_class = serializers.RegionsSerializer
 
-class Codex_org_typesViews(generics.ListCreateAPIView):
+class Qodex_orgViews(generics.ListCreateAPIView):
     """ API for Codex_org """
-    queryset = models.Codex_org.objects.all()
+    queryset = models.Qodex_org.objects.all()
     serializer_class = serializers.Codex_orgSerializer
 
 class Oro_infoViews(generics.ListCreateAPIView):

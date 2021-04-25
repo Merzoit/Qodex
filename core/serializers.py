@@ -71,6 +71,12 @@ class Cm_events_logSerializer(serializers.ModelSerializer):
         model = models.Cm_events_log
         fields = ("__all__")
 
+class RFID_IDSerializer(serializers.ModelSerializer):
+    """ Serializer for API """
+    class Meta:
+        model = models.RFID_ID
+        fields = ("__all__")
+
 class RFID_typesSerializer(serializers.ModelSerializer):
     """ Serializer for API """
     class Meta:
