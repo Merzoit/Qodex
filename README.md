@@ -56,6 +56,20 @@
         <li>Axios</li>
         <li>Ajax</li>
     </ul>
+<h2>Взаимодействие с Rest_framework(API)</h2>
+<img src="../../blob/main/pic/readpic1.png"/>
+<ol>
+    <li>Выбор формата данных</li>
+    <li>Конфиг БД</li>
+    <li>Ссылка на API</li>
+    <li>Данные объектов</li>
+</ol>
+<p>Для получение JSON - данных, переходим по кнопке под номер один рисунка.</p>
+<p>Пример полученных данных:</p>
+<img src="../../blob/main/pic/readpic2.png"/>
+<p>Для передачи данных на прямую, добавтье к вашей ссылке: ?format=json</p>
+<p>Пример ссылки: <em>example.com/api/user?format=json</em></p>
+<p>Подробнее о связи API с фронтендом в <a href="https://apirobot.me/posts/django-vue-how-to-create-and-consume-api-part-2">туториале</a>(на примере Vue+Axios)</p>
 
 
 // Расшифровка полей БД: //
