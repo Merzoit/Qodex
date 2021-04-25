@@ -7,6 +7,7 @@ from django.contrib.auth.views import LoginView, LogoutView, PasswordChangeView
 from core import views
 
 urlpatterns = [
+   #API URLS
    path('api/user', views.Login.as_view()),
    path('api/auto', views.AutoView.as_view()),
    path('api/trash_types', views.Trash_typesViews.as_view()),
