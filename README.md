@@ -1,5 +1,5 @@
 # Qodex
-<h1>Обозначения:<h1>
+<h1>Обозначения:</h1>
     <ul>
         <li>Core - ядро приложения.</li>
         <li>Frontend - UI приложения.</li>
@@ -27,20 +27,22 @@
 </ul>
 
 
-// API: //
-Django_rest_framework - это библиотека, которая работает со стандартными моделями Django для создания гибкого и мощного API для проекта.
-подробнее в документации к библиотеке(https://www.django-rest-framework.org/api-guide/generic-views/#listapiview)
-Ссылки API: 
-{ДОМЕН}/api/-
-            -user
-            -auto
-            -trash_types
-            -trash_cats
-            -weight_types
-Ссылки предоставляют API как в JSON формате, так и html формой.
-Рекомендуемые библиотеки для связи rest_framework+JavaScript(React, Vue):
-    1. Axios
-    2. Ajax
+<h1>API:</h1>
+    <p>Django_rest_framework - это библиотека, которая работает со стандартными моделями Django для создания гибкого и мощного API для проекта.
+    подробнее в <a href="https://www.django-rest-framework.org/api-guide/generic-views/#listapiview">документации</a> к библиотеке</p>
+<h2>Ссылки API:</h2> 
+    <ul>{ДОМЕН}/api/
+        <li>user</li>
+        <li>auto</li>
+        <li>trash_types</li>
+        <li>trash_cats</li>
+        <li>weight_types</li></ul>
+<p>Ссылки предоставляют API как в JSON формате, так и html формой.
+Рекомендуемые библиотеки для связи rest_framework+JavaScript(React, Vue):</p>
+    <ul>
+        <li>Axios</li>
+        <li>Ajax</li>
+    </ul>
 
 
 // Расшифровка полей БД: //
