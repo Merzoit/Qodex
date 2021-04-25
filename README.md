@@ -1,9 +1,10 @@
 # Qodex
 <h1>Обозначения:<h1>
-Core - ядро приложения.
-Frontend - UI приложения.
-Qodex - проект.
-
+    <ul>
+        <li>Core - ядро приложения.</li>
+        <li>Frontend - UI приложения.</li>
+        <li>Qodex - проект.</li>
+    </ul>
 
 // Архитектура: //
 Core-
